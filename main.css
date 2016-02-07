@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: #EEEEEE;
+    padding: 20px;
+}
+
+.navigation li {
+    display: inline;
+    padding: 10px;
+}
+
+.navigation li a {
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.main {
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    background-color: #9E9E9E;
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 400px;
+}
+
+.main h1 {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.main p {
+    font-size: 30px;
+}
