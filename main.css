@@ -35,6 +35,10 @@ body {
     padding-top: 10px;
 }
 
+.text a {
+    color: #0288D1;
+}
+
 .main {
     font-family: 'Roboto';
     color: #FFFFFF;
