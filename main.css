@@ -3,21 +3,35 @@
     padding: 0;
 }
 
-.navigation {
+body {
     background-color: #EEEEEE;
+}
+
+.navigation {
+    background-color: #03A9F4;
     padding: 20px;
 }
 
 .navigation li {
     display: inline;
-    padding: 10px;
+    padding: 16px;
 }
 
 .navigation li a {
     font-family: 'Roboto';
     font-weight: bold;
     text-decoration: none;
-    color: #000000;
+    color: #FFFFFF;
+}
+
+.text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 20px;
+}
+
+.text p {
+    padding-top: 10px;
 }
 
 .main {
@@ -36,4 +50,46 @@
 
 .main p {
     font-size: 30px;
+}
+
+.learn-more {
+    padding: 10px;
+    background-color: #EEEEEE;
+}
+
+.learn-more-section {
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+    background-color: #EEEEEE;
+}
+
+.learn-more-section img {
+    background-color: #9F9F9F;
+    width: inherit;
+    height: 150px;
+    display: block;
+}
+
+.learn-more-section h3 {
+    background-color: #CCCCCC;
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.learn-more-section p {
+    background-color: #CCCCCC;
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.learn-more-section a {
+    color: #0288D1;
 }
