@@ -1,100 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: #EEEEEE;
-}
-
-.navigation {
-    background-color: #03A9F4;
-    padding: 20px;
-}
-
-.navigation li {
-    display: inline;
-    padding: 16px;
-}
-
-.navigation li a {
-    font-family: 'Roboto';
-    font-weight: bold;
-    text-decoration: none;
-    color: #FFFFFF;
+.main {
+    height: 600px;
+    background-color: #616161;
 }
 
 .text {
-    font-family: 'Roboto';
-    font-size: 18px;
-    padding: 20px;
-    width: 1000px;
+    padding-left: 30px;
 }
 
-.text p {
-    padding-top: 10px;
-}
-
-.text a {
-    color: #0288D1;
-}
-
-.main {
-    font-family: 'Roboto';
-    color: #FFFFFF;
-    background-color: #9E9E9E;
-    padding-left: 40px;
+.title {
+    text-align: center;
     padding-top: 100px;
-    padding-bottom: 400px;
+    color: #FFFFFF;
 }
 
-.main h1 {
-    font-size: 80px;
-    font-weight: 400;
+.title a {
+    color: #2196f3
 }
 
-.main p {
-    font-size: 30px;
+.trailer {
+    height: 520px;
+    padding: 40px;
+    text-align: center;
+    background-color: #E0E0E0;
 }
 
-.learn-more {
-    padding: 10px;
-    background-color: #EEEEEE;
+.video {
+    margin: auto;
+    width: 800px;
 }
 
-.learn-more-section {
-    padding: 10px;
-    display: inline-block;
-    width: 300px;
-    background-color: #EEEEEE;
+.info {
+    display: flex;
+    justify-content: center;
+    background-color: #616161;
 }
 
-.learn-more-section img {
-    background-color: #9F9F9F;
-    width: inherit;
-    height: 150px;
-    display: block;
+.info-card.mdl-card {
+    float: left;
+    margin: 10px;
+    width: 320px;
+    height: 320px;
 }
 
-.learn-more-section h3 {
-    background-color: #CCCCCC;
-    font-family: 'Roboto';
-    font-size: 16px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.learn-more-section p {
-    background-color: #CCCCCC;
-    font-family: 'Roboto';
-    font-size: 14px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-}
-
-.learn-more-section a {
-    color: #0288D1;
+.info-card > .mdl-card__title {
+    color: #fff;
+    background-color: #46B6AC;
 }
